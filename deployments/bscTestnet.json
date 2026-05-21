@@ -1,0 +1,8 @@
+{
+  "network": "bscTestnet",
+  "chainId": 97,
+  "contract": "0x3aDFbA5af97319b387c8Aa32c11d6f1d842e94c7",
+  "relay": "0x35f5808841DdB829d97ECd210c26039c80e7e1C8",
+  "deployer": "0x35f5808841DdB829d97ECd210c26039c80e7e1C8",
+  "deployedAt": "2026-05-18T09:31:37.215Z"
+}
