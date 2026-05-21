@@ -1,0 +1,18 @@
+{
+  "name": "tomoland-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for the Tomoland ecosystem on BNB Smart Chain",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:testnet": "RELAY_ADDRESS=$RELAY_ADDRESS hardhat run scripts/deploy.js --network bscTestnet",
+    "deploy:mainnet": "RELAY_ADDRESS=$RELAY_ADDRESS hardhat run scripts/deploy.js --network bscMainnet",
+    "verify:testnet": "hardhat verify --network bscTestnet",
+    "verify:mainnet": "hardhat verify --network bscMainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
